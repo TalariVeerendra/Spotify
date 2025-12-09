@@ -1,12 +1,5 @@
-# React + Vite
+This project is a Spotify-like React application featuring a modern, responsive UI and a custom backend with internal storage for managing user data, playlists, and music metadata. The frontend is built using React, offering a smooth and dynamic user experience with components for browsing tracks, managing playlists, and controlling playback.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The backend is implemented with a lightweight internal storage system (such as a local database, JSON storage, or in-memory store), enabling reliable data handling without relying on external databases. It provides secure API endpoints for authentication, playlist management, and track retrieval.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Overall, this project demonstrates how to build a full-stack music streaming interface by integrating a polished React UI with a simple yet scalable backend architecture.
